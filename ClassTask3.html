@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Styled Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <form>
+
+        <div class="section">
+            <label>Username</label><br>
+            <input type="text" placeholder="Enter username">
+        </div>
+
+        <div class="section">
+            <label>Password</label><br>
+            <input type="password" placeholder="Enter password"><br>
+            <small>Your password is between 4 and 12 characters</small>
+        </div>
+
+        <div class="section">
+            <label>Input Text Label</label><br>
+            <input type="text" value="Typing" class="error-input"><br>
+            <span class="error-text">Error message informing me of a problem</span>
+        </div>
+
+        <div class="section">
+            <input type="checkbox" id="remember" class="checkbox">
+            <label for="remember" class="remember">Remember me</label>
+        </div>
+
+        <div class="section toggle-section">
+         <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+        </label>
+        <span class="toggle-text">Off</span>
+        </div>
+
+        <div class="section">
+            <input type="radio" name="radio"> Radio selection 1<br>
+            <input type="radio" name="radio" checked> Radio selection 2<br>
+            <input type="radio" name="radio"> Radio selection 3
+        </div>
+
+        <div class="section">
+            <label>Dropdown Title</label><br>
+            <select>
+                <option>Dropdown option</option>
+                <option>Dropdown option 1</option>
+                <option>Dropdown option 2</option>
+            </select>
+        </div>
+
+        <div class="buttons">
+            <button type="reset" class="cancel">Cancel</button>
+            <button type="submit" class="next">Next</button>
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>
